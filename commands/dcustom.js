@@ -1,6 +1,6 @@
 const discord = require("discord.js");
 
-module.exports.run = async (client, message, args) => {
+module.exports.run = async(client, message, args) => {
 
     // ?scustoms Solo Customs / code / kanaal
 
@@ -29,7 +29,7 @@ module.exports.run = async (client, message, args) => {
     var scustomEmbed = new discord.MessageEmbed()
         .setTitle("Duo Custom")
         .setColor("#00ea00")
-        .setDescription(`Code: ${options.code} \n Hosted By ${message.author} \n Mode: Duo`)
+        .setDescription(`Code: ${options.code} \n Hosted By ${message.author} \n Mode: Duo Arena`)
         .setTimestamp()
         .setFooter("Made By Matthyyyy#8821");
 
