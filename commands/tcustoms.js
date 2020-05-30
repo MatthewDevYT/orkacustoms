@@ -26,6 +26,7 @@ module.exports.run = async(client, message, args) => {
     }
 
     var tcustomEmbed = new discord.MessageEmbed()
+        .setTitle("@everyone")
         .setTitle("Trio Custom")
         .setColor("#00ea00")
         .setDescription(`Code: ${options.code} \n Hosted By ${message.author} \n Mode: Trio Arena`)
